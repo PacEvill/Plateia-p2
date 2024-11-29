@@ -1,1 +1,1 @@
-# Plateia-p2
+# Plateia

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login do usuário</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="stylesheet" href="../CSS/reset.css" />
+    <link rel="stylesheet" href="../CSS/responsive.css">
+  </head>
+  <body>
+    <header id="header-menu">
+      <div class="tooltip">
+        <a href="../index.html" id="logo">
+            <img src="../IMG/Logo.png" alt="Logo Plateia" />
+        </a>
+        <span class="tooltiptext">criada pelo Vitinho</span>
+    </div>
+    <div class="hamburger-menu" onclick="toggleMenu()">
+      <div></div>
+      <div></div>
+      <div></div>
+  </div>
+  <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../pages/about.html">Sobre</a></li>
+      <li><a href="../pages/contato.html">Contato</a></li>
+  </ul>
+    </header>
+    <section id="contato">
+        <h2>Login</h2>
+        <form id="form">
+          <label for="nome">Nome/E-mail:</label>
+          <input type="text" id="nome" name="nome" required />
+          <label for="senha">Senha</label>
+          <input type="senha" id="senha" name="senha" required />  
+          <button type="submit">Enviar</button>
+          <a id="nova" href=""><p>Não possui conta. Cadastre-se aqui</p></a>
+        </form>
+      </section>
+      <footer id="footer">
+        <div class="footer-logos">
+            <div class="tooltip">
+              <a href="">
+              <img src="../IMG/icons8-whatsapp-48 (1).png" alt="">
+            </a>
+            <span class="tooltiptext">Whatsapp</span>
+          </div>
+            <div class="tooltip">
+              <a href="">
+              <img src="../IMG/icons8-instagram-48 (1).png" alt="">
+              <span class="tooltiptext">Instagram</span>
+            </a>
+          </div>
+           <div class="tooltip">
+            <a href="">
+              <img src="../IMG/icons8-facebook-48.png" alt="">
+              <span class="tooltiptext">Facebook</span>
+            </a>
+           </div>
+            <div class="tooltip">
+              <a href="">
+              <img src="../IMG/icons8-linkedin-48 (1).png" alt="">
+              <span class="tooltiptext">Linkedin</span>
+            </a>
+            </div>
+            <div class="tooltip">
+              <a href="">
+              <img src="../IMG/icons8-github-48.png" alt="">
+              <span class="tooltiptext">Github</span>
+            </a>
+            </div>
+          </div>
+          <div id="copy">
+            <p class="copyright">Copyright © 2024  <a id="link-copy" href=""> Plateia </a> - Todos os direitos reservados.</p>
+        </div>
+        </footer>
+    </body>
+  <script src="main.js"></script>
+  </html>
+  
